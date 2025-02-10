@@ -1,0 +1,124 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f7d6e0, #b6e2f8);
+  color: #333;
+}
+
+h1, h2 {
+  color: #4a4e69;
+  text-align: center;
+}
+
+h3 {
+  color: #6c5ce7;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a4e69;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.landing-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.landing-image {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #4a4e69;
+}
+
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 2px solid #6c5ce7;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+.game-rules {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.game-rules ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-rules li {
+  background: #f7f7f7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.quiz-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.options {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.feedback {
+  color: #4caf50;
+  font-size: 18px;
+}
+
+
+.game-end {
+  text-align: center;
+  padding: 20px;
+}

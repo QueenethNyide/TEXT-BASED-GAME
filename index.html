@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cooking Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="landing-page">
+    <h1>🍳 Welcome to the Cooking Quiz! 🍴</h1>
+    <p>Embark on a delicious journey of food, fun, and learning!</p>
+    <img src="cook.jpg" alt="Cooking illustration" class="landing-image">
+    <form id="nameForm">
+      <label for="username">Enter your name to begin:</label>
+      <input 
+        type="text" 
+        id="username" 
+        placeholder="Enter your name" 
+        required 
+        aria-label="Your name" 
+      >
+      <button type="submit">Start Game</button>
+    </form>
+  </div>
+
+
+  <div class="game-rules hidden">
+    <h2>📝 How to Play the Cooking Quiz</h2>
+    <p>Here are the rules to make your experience both fun and enriching:</p>
+    <ul>
+      <li>💡 Enter your name to personalize your quiz experience.</li>
+      <li>👀 Read the questions and options carefully before selecting your answer.</li>
+      <li>🏆 Celebrate your wins! Each correct answer brings you closer to mastering cooking knowledge.</li>
+      <li>🔄 Don't worry if you get something wrong. You can always try again and learn along the way!</li>
+    </ul>
+    <p>🌟 <strong>Remember:</strong> Every great chef starts with small steps. This quiz is your chance to shine and test your cooking know-how. Good luck and have fun!</p>
+    <button id="beginQuiz">Let’s Begin the Quiz!</button>
+  </div>
+  <div class="quiz-container hidden">
+    <h2 id="scenario"></h2>
+    <h3 id="question"></h3>
+    <div id="options"></div>
+    <p id="feedback"></p>
+    <button id="nextQuestion" class="hidden">Next Question</button>
+  </div>
+
+  
+  <div class="game-end hidden">
+    <h2>🎉 Congratulations, <span id="userName"></span>! 🎉</h2>
+    <p>You’ve completed the Cooking Quiz. Well done!</p>
+    <button id="restartQuiz">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
